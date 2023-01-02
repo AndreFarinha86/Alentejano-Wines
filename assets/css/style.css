@@ -1,4 +1,4 @@
-/* General Rules*/
+/* General Rules */
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@300&display=swap');
 
@@ -8,7 +8,60 @@
     border: none;
 }
 
-body{
+body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
+}
+
+
+/* Header, logo and nav bar rules */
+
+.header {
+    background-color: #dddd;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+#logo img {
+    float: left;
+    padding: 0 0 0 10px;
+    height: 80px;
+}
+
+
+#navbar {
+    line-height: 80px;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease 0s;
+}
+
+#navbar li a:hover {
+    color: blue;
+}
+
+.active{
+    border-bottom: 1px solid;
+}
+
+
+/* Body rules */
+
+.main {
+    margin-top: 100px;
 }
