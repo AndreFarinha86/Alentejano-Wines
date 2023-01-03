@@ -75,14 +75,14 @@ body {
     height: 600px;
   
 
-    /* Front image animation zoom out rules on loading page */
+    /* Home front image animation zoom out rules on loading page */
     animation-name: front-img-animation;
     animation-duration: 3s;
     animation-fill-mode: backwards;
 }
 
 
-/* Front image animation rules */
+/* Home front image animation rules */
 @keyframes front-img-animation {
     from {
         transform: scale(1.1);
@@ -93,15 +93,45 @@ body {
     }
 }
 
+/* Home front title rules */
 
 #home-front-title {
     font-family: Patua+One, sans-serif;
     font-size: 250%;
-    color: brown;
+    color: #A32E2E;
     text-align: center;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, 0);
     text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Home front text rules */
+
+#home-front-text {
+    font-family: Hebbo, sans-serif;
+    font-size: 120%;
+    color: whitesmoke;
+    text-align: left;
+    position: absolute;
+    top: 75%;
+    left: 15px;
+    text-transform: uppercase;
+
+    width: 350px;
+    height: 60px;
+
+    padding: 10px 10px ;
+
+    background: rgba(177, 18, 38, 0.8);
+    border-radius: 15px;
+
+}
+
+#home-front-text li {
+    list-style-type: none;
+    margin-right: 55px;
+    display: inline-block;
 }
