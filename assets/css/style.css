@@ -1,6 +1,7 @@
 /* General Rules */
 
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@300&family=Patua+One&display=swap');
+
 
 * {
     margin: 0;
@@ -21,8 +22,9 @@ body {
     height: 80px;
     position: fixed;
     width: 100%;
-    overflow: hidden;
     top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #logo img {
@@ -55,26 +57,25 @@ body {
     color: blue;
 }
 
-.active{
+.active {
     border-bottom: 1px solid;
 }
 
+/* Home front section rules */
 
-/* Front image rules */
-
-#front-img-outer{
+.home-front{
     margin-top: 80px;
-    height: 600px;
-    overflow: hidden;
-
+    position: relative;
 }
 
-#front-img{
+
+#home-front-img {
     background: url(../images/Home-Front-img.jpg) no-repeat center center;
     background-size: 100%;
     height: 600px;
+  
 
-/* Front image animation zoom out rules on loading page */
+    /* Front image animation zoom out rules on loading page */
     animation-name: front-img-animation;
     animation-duration: 3s;
     animation-fill-mode: backwards;
@@ -83,12 +84,24 @@ body {
 
 /* Front image animation rules */
 @keyframes front-img-animation {
-    from{
+    from {
         transform: scale(1.1);
     }
-    to{
+
+    to {
         transform: scale(1);
     }
 }
 
 
+#home-front-title {
+    font-family: Patua+One, sans-serif;
+    font-size: 250%;
+    color: brown;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: uppercase;
+}
