@@ -139,50 +139,92 @@ body {
 
 /* Home page main content rules */
 
-.main{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    padding: 0 200px;
+.section-main{
+    margin-top: 100px;
+    padding: 0px 180px;
+    border: black 1px solid;
+   
 }
 
-.main  h2{
+.section-main h2{
     font-family: Hebbo, sans-serif;
     font-size: 200%;
     color: rgb(59, 57, 57);
     text-align: left;
     text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    border: black 1px solid;
 }
 
-.main p{
+.section-main p{
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
     line-height: 1.5;
+    border: black 1px solid;
 }
 
 
-.main-img-left{
-    width: 30%;
+#section1-img{
+    background: url(../images/About-us2.png) no-repeat center center;
+    height: 350px;
+    box-sizing: border-box;
     float: left;
-
+    width: 30%;
+    border: black 1px solid;
 }
 
-.main-img-left img {
-    width: 250px;
-
+#section1-img img{
+    height: 200px;
+    border: black 1px solid;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.main-text-right {
-    width: 70%;
+#section1-img h3{
+    font-size: 110%;
+    font-weight: bold;
+    color: aliceblue;
+    text-transform: uppercase;
+    border: black 1px solid;
+    position: relative;
+    text-align: center;
+    transform: translate(0%, 60%);
+}
+
+#section1-text{
+    box-sizing: border-box;
+}
+
+#section2-img img{
+    height: 530px;
+    width: 450px;
+    object-fit: cover;
     float: right;
-    text-align: justify;
-
+    position: relative;
 }
 
-.main-text-right p{
-    margin-bottom: 10px;
-    text-indent: 20px;
-    line-height: 1.5;
+
+
+#section3-img1 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+    
 }
+
+
+#section3-img2 img{
+    height: 480px;
+    width: 400px;
+    object-fit: cover;
+    float: right;
+    position: relative;
+}
+
+
+
+
