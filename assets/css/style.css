@@ -14,10 +14,6 @@ body {
     font-weight: 300;
 }
 
-.main{
-    margin-top: 40px;
-    padding: 0 120px;
-}
 
 
 /* Header, logo and nav bar rules */
@@ -139,4 +135,42 @@ body {
     list-style-type: none;
     margin-right: 55px;
     display: inline-block;
+}
+
+/* About us rules */
+
+.main{
+    margin-top: 40px;
+    padding: 0 200px;
+}
+
+.main > h2{
+    font-family: Hebbo, sans-serif;
+    font-size: 200%;
+    color: rgb(59, 57, 57);
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main-img-left{
+    width: 20%;
+    float: left;
+
+}
+
+.main-img-left img {
+    width: 200px;
+
+}
+
+.main-text-right {
+    width: 80%;
+    float: right;
+    text-align: justify;
+
+}
+
+.main-text-right p{
+    margin-top: 10px;
 }
