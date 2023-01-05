@@ -328,6 +328,10 @@ footer div i{
 #ourbrands-front-img h1{
     border: solid 1px;
     position: absolute;
+    font-family: Patua+One, sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    text-transform: uppercase;
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
