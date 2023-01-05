@@ -67,6 +67,7 @@ footer {
     width: 100%;
     height: 150px;
     margin-top: 20px;
+    clear: both;
 }
 
 footer div{
@@ -139,7 +140,7 @@ footer div i{
 /* Home front section rules */
 
 .home-front {
-    margin-top: 80px;
+    margin-top: 90px;
     position: relative;
 }
 
@@ -213,14 +214,12 @@ footer div i{
 /* Home page main content rules */
 
 .section-main {
-    margin-top: 100px;
+    margin-top: 40px;
     padding: 0px 180px;
-    border: black 1px solid;
 }
 
 .main-box-space {
     width: 5px;
-    border: black 1px solid;
 }
 
 .section-main h2 {
@@ -229,8 +228,7 @@ footer div i{
     color: rgb(59, 57, 57);
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 100px;
-    border: black 1px solid;
+    margin-bottom: 25px;
 }
 
 .section-main p {
@@ -238,7 +236,6 @@ footer div i{
     margin-bottom: 10px;
     text-indent: 20px;
     line-height: 1.5;
-    border: black 1px solid;
 }
 
 #section1-img {
@@ -247,12 +244,10 @@ footer div i{
     box-sizing: border-box;
     float: left;
     width: 30%;
-    border: black 1px solid;
 }
 
 #section1-img img {
     height: 200px;
-    border: black 1px solid;
     position: relative;
     top: 50%;
     left: 50%;
@@ -264,17 +259,47 @@ footer div i{
     font-weight: bold;
     color: aliceblue;
     text-transform: uppercase;
-    border: black 1px solid;
     position: relative;
     text-align: center;
     transform: translate(0%, 60%);
 }
 
 #section1-text {
-    box-sizing: border-box;
+    float: right;
+    margin-bottom: 60px;
+    width: 68%;
+}
+
+#section2 {
+    clear: both;
 }
 
 #section2-img img {
+    height: 528px;
+    width: 450px;
+    position: relative;
+    object-fit: cover;
+    float: right;
+}
+
+#section2-text {
+    float: left;
+    margin-bottom: 60px;
+    width: 60%;
+}
+
+#section3 {
+    clear: both;
+}
+
+#section3-img1 img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#section3-img2 img {
     height: 530px;
     width: 450px;
     object-fit: cover;
@@ -282,40 +307,15 @@ footer div i{
     position: relative;
 }
 
-#section3-img1 img {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 50px;
-}
-
-#section3-img2 img {
-    height: 480px;
-    width: 400px;
-    object-fit: cover;
-    float: right;
-    position: relative;
+#section3-text {
+    float: left;
+    margin-bottom: 60px;
+    width: 60%;
 }
 
 
-#section1 {
-    background-color: aqua;
 
-}
 
-#section2 {
-    background-color: red;
-    clear: both;
-
-}
-
-#section3 {
-    background-color: green;
-}
-
-#section4 {
-    background-color: blue;
-}
 
 
 
