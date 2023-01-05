@@ -316,7 +316,6 @@ footer div i{
 
 /* Our Brands Page Rules */
 
-
 #ourbrands-front-img{
     border: solid 1px;
     background-color: red;
@@ -339,7 +338,13 @@ footer div i{
     margin: 10px;
 }
 
-.section-main1 div{
+.section-main1 h3 {
+    font-size: 130%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-main1 div, .section-main1 h3{
     border: solid 1px;
     margin: 10px 180px;
     overflow: auto;
