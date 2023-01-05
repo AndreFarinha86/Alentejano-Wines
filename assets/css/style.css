@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@300&family=Patua+One&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
 }
-
 
 
 /* Header, logo and nav bar rules */
@@ -33,7 +31,6 @@ body {
     padding: 0 0 0 10px;
     height: 80px;
 }
-
 
 #navbar {
     line-height: 80px;
@@ -62,6 +59,83 @@ body {
     border-bottom: 1px solid;
 }
 
+
+/* Footer rules */
+
+footer {
+    background-color: rgba(177, 18, 38, 0.8);
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer div i{
+    color: rgb(32, 31, 31);
+}
+
+.bold {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 5px auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#footer-left{
+    float: left;
+    width: 33%;
+}
+
+#footer-left p{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#footer-right{
+    float: right;
+    width: 33%;
+}
+
+
+#footer-right ul{
+    text-align: center;
+}
+
+#footer-right li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 3%;
+}
+
+#footer-right i{
+    font-size: 150%;
+}
+
+#footer-center{
+    width: 34%;
+}
+
+#footer-center ul{
+    margin: 0 auto;
+    width: 35%;
+}
+
+#footer-center li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+#footer-center p{
+    text-align: center;
+}
+
+
+/* Home Page Rules */
+
 /* Home front section rules */
 
 .home-front {
@@ -69,12 +143,10 @@ body {
     position: relative;
 }
 
-
 #home-front-img {
     background: url(../images/Home-Front-img.jpg) no-repeat center center;
     background-size: 100%;
     height: 600px;
-
 
     /* Home front image animation zoom out rules on loading page */
     animation-name: front-img-animation;
@@ -88,13 +160,13 @@ body {
     from {
         transform: scale(1.1);
     }
-
     to {
         transform: scale(1);
     }
 }
 
-/* Home front title rules */
+
+/* Home front section title rules */
 
 #home-front-title {
     font-family: Patua+One, sans-serif;
@@ -109,7 +181,8 @@ body {
     letter-spacing: 3px;
 }
 
-/* Home front text rules */
+
+/* Home front section text rules */
 
 #home-front-text {
     font-family: Hebbo, sans-serif;
@@ -128,7 +201,6 @@ body {
 
     background: rgba(177, 18, 38, 0.8);
     border-radius: 15px;
-
 }
 
 #home-front-text li {
@@ -136,6 +208,7 @@ body {
     margin-right: 55px;
     display: inline-block;
 }
+
 
 /* Home page main content rules */
 
@@ -148,7 +221,6 @@ body {
 .main-box-space {
     width: 5px;
     border: black 1px solid;
-
 }
 
 .section-main h2 {
@@ -168,7 +240,6 @@ body {
     line-height: 1.5;
     border: black 1px solid;
 }
-
 
 #section1-img {
     background: url(../images/About-us2.png) no-repeat center center;
@@ -211,16 +282,12 @@ body {
     position: relative;
 }
 
-
-
 #section3-img1 img {
     height: 300px;
     width: 100%;
     object-fit: cover;
     margin-bottom: 50px;
-
 }
-
 
 #section3-img2 img {
     height: 480px;
@@ -229,7 +296,6 @@ body {
     float: right;
     position: relative;
 }
-
 
 
 #section1 {
@@ -252,4 +318,6 @@ body {
 }
 
 
-/* Footer rules */
+
+
+
