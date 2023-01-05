@@ -359,10 +359,9 @@ footer div i{
     width: 30%;
     height: 150px;
     float: left;
-  
 }
 
-.section-main1 p{
+.section-main1 span{
     border: solid 1px;
     width: 60%;
     height: 150px;
