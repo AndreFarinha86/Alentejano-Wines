@@ -324,52 +324,76 @@ footer div i{
     background:url(../images/our-brands-img.jpg) no-repeat center bottom;
     width: 100%;
     height: 600PX;
-    object-fit: fill;
     margin-top: 90px;
+    object-fit: fill;
     position: relative;
 }
 
 #ourbrands-front-img h1{
-    
     position: absolute;
     font-family: Patua+One, sans-serif;
-    font-size: 250%;
+    color:aliceblue;
+    font-size: 400%;
     font-weight: bold;
     text-transform: uppercase;
     top: 50%; 
-    left: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
 
-.section-main1{
-    margin: 10px;
-    background-color: aqua;
-}
-
-.section-main1 h3 {
-    font-size: 130%;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.section-main1 div, .section-main1 h3{
-    margin: 10px 250px;
+.ourbrands-box{ 
+    width: 1170px;
+    height: auto;
+    margin: 60px auto 0 auto;
     overflow: auto;
 }
 
-.section-main1 img{
-    height: 200px;
+.ourbrands-box-div{
+    overflow: auto;
+    margin-bottom: 60px;
+}
+
+.ourbrands-box-title{
+    border-bottom: 3px groove;
+    margin-bottom: 40px;
+    font-family: Hebbo, sans-serif;
+    font-size: 200%;
+    color: rgb(89, 62, 47);
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 2%;
+    width: 350px;
+}
+
+.ourbrands-img img{
+    width: 100px;
+    height: 250px;
     float: left;
-    border: solid 1px;
+    object-fit: contain;
 }
 
-.section-main1 span{
-    width: 80%;
+.ourbrands-text{
+    width: 90%;
+    height: auto;
     float: right;
-    border: solid 1px;
+    text-align: justify;
+    line-height: 1.3;
 }
 
+.ourbrands-text h5{
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ourbrands-text p{
+    margin-bottom: 3px;
+}
 
+.ourbrands-text h4{
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 
 
