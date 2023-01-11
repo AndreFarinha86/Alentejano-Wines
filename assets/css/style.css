@@ -396,10 +396,89 @@ footer div i{
 }
 
 
+/* Wine tours Page Rules */
 
 
+#winetours-front-img{
+    background-color: #A32E2E;
+    width: 100%;
+    height: 600px;
+    margin-top: 90px;
+}
+
+#winetours-front-title{
+    border: 1px solid;
+
+}
+
+#winetours-front-text{
+    border: 1px solid;
+
+}
+
+.winetours-box{
+    background-color: aqua;
+    width: 1170px;
+    height: auto;
+    margin: 60px auto 0 auto;
+    overflow: auto;
+}
+
+.winetours-box div{
+    margin-bottom: 50px;
+    height: auto;
+
+}
 
 
+.section2-left{
+    background-color: orange;
+    width: 50%;
+    height: 200px;
+    float: left;
+
+}
+
+.section2-right{
+    background-color: green;
+    width: 50%;
+    height: 200px;
+    float: right;
+
+}
+.winetours-section3 div{
+    overflow: auto;
+    border: 1px solid;
+}
+
+.winetours-section3 h3{
+    border: 1px solid;
+    float: right;
+    width: 30%;
+}
+
+.winetours-section3 img{
+    border: 1px solid;
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.winetours-section3 p{
+    border: 1px solid;
+    float: right;
+    width: 60%;
+}
+.winetours-section3 h4{
+    border: 1px solid;
+    float: left;
+    width: 30%;
+}
+.winetours-section3 input{
+    border: 1px solid;
+    float: right;
+    width: 30%;
+}
 
 
 
