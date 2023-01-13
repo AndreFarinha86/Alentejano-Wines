@@ -22,45 +22,109 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    left: 0;
     z-index: 1;
 }
 
-#logo img {
+.logo img {
     float: left;
-    padding: 0 0 0 10px;
+    padding-left: 10px;
     height: 80px;
 }
 
-#navbar {
-    line-height: 80px;
-    font-size: 120%;
-    letter-spacing: 2px;
+
+/* Responsive rules for screens bigger than 900px */
+
+@media screen and (max-width: 900px) {
+
+.navbar{
+    display: none;
+
+}
+
+.nav-burger{
+    display: none;
+}
+
+.burger-box{
+    border: 3px solid;
+    width: 70px;
+    height: 70px;
+    margin-left: 60%;
+    margin-top: 2.5px;
     text-align: center;
+    border-radius: 10px;
+    
 }
 
-#navbar li {
-    list-style-type: none;
-    margin-right: 20px;
-    display: inline-block;
+.burger-menu{
+    width: 60px;
+    padding: auto;
+    font-size: 60px;
+    height: 100px;
+   
 }
 
-#navbar li a {
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.3s ease 0s;
+
+
+.nav-burger:checked ~ nav {
+    display: block;
 }
 
-#navbar li a:hover {
-    color: blue;
 }
+
 
 .active {
     border-bottom: 1px solid;
 }
 
+/* Responsive rules for screens smaller than 900px */
+
+@media screen and (min-width: 900px) {
+
+.navbar {
+    line-height: 80px;
+    font-size: 120%;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline-block;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+.nav-burger{
+    display: none;
+}
+
+.burger-menu{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
 
 /* Footer rules */
+
 
 footer {
     background-color: rgba(177, 18, 38, 0.8);
@@ -70,11 +134,11 @@ footer {
     clear: both;
 }
 
-footer div{
+footer div {
     display: inline-block;
 }
 
-footer div i{
+footer div i {
     color: rgb(32, 31, 31);
 }
 
@@ -86,58 +150,61 @@ footer div i{
     padding-top: 10px;
 }
 
-#footer-left{
+#footer-left {
     float: left;
     width: 33%;
 }
 
-#footer-left p{
+#footer-left p {
     text-align: center;
     padding-top: 40px;
 }
 
-#footer-right{
+#footer-right {
     float: right;
     width: 33%;
 }
 
 
-#footer-right ul{
+#footer-right ul {
     text-align: center;
 }
 
-#footer-right li{
+#footer-right li {
     list-style-type: none;
     display: inline-block;
     margin: 3%;
 }
 
-#footer-right i{
+#footer-right i {
     font-size: 150%;
 }
 
-#footer-center{
+#footer-center {
     width: 34%;
 }
 
-#footer-center ul{
+#footer-center ul {
     margin: 0 auto;
     width: 35%;
 }
 
-#footer-center li{
+#footer-center li {
     list-style-type: none;
     padding-top: 5px;
 }
 
-#footer-center p{
+#footer-center p {
     text-align: center;
 }
+
+
 
 
 /* Home Page Rules */
 
 /* Home front section rules */
+
 
 .home-front {
     margin-top: 90px;
@@ -156,11 +223,13 @@ footer div i{
 }
 
 
+
 /* Home front image animation rules */
 @keyframes front-img-animation {
     from {
         transform: scale(1.1);
     }
+
     to {
         transform: scale(1);
     }
@@ -215,14 +284,14 @@ footer div i{
 
 /* All content sections */
 
-.home-box{ 
+.home-box {
     width: 1170px;
     height: auto;
     margin: 60px auto 0 auto;
     overflow: auto;
 }
 
-.home-box-title{
+.home-box-title {
     border-bottom: 3px groove;
     margin-bottom: 20px;
     font-family: Hebbo, sans-serif;
@@ -234,7 +303,7 @@ footer div i{
     width: 350px;
 }
 
-.home-section-text p{
+.home-section-text p {
     margin-bottom: 7px;
     text-align: justify;
     text-indent: 20px;
@@ -244,7 +313,7 @@ footer div i{
 
 /* Content section 2 */
 
-#home-section2-img{
+#home-section2-img {
     background: url(../images/About-us2.png) no-repeat center center;
     width: 350px;
     height: 340px;
@@ -253,14 +322,14 @@ footer div i{
     object-fit: cover;
 }
 
-#home-section2-img img{
+#home-section2-img img {
     height: 200px;
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
 }
 
-#home-section2-img h3{
+#home-section2-img h3 {
     font-size: 110%;
     font-weight: bold;
     color: aliceblue;
@@ -269,7 +338,7 @@ footer div i{
     transform: translate(0%, 70%);
 }
 
-#home-section2-text{
+#home-section2-text {
     width: 67%;
     height: auto;
     float: right;
@@ -279,14 +348,14 @@ footer div i{
 
 /* Content section 3 */
 
-#home-section3-img img{
+#home-section3-img img {
     width: 350px;
     height: 470px;
     float: right;
     object-fit: cover;
 }
 
-#home-section3-text{
+#home-section3-text {
     width: 67%;
     height: auto;
     float: left;
@@ -303,14 +372,14 @@ footer div i{
     margin-bottom: 20px;
 }
 
-#home-section4-img2 img{
+#home-section4-img2 img {
     width: 350px;
     height: 450px;
     float: right;
     object-fit: cover;
 }
 
-#home-section4-text{
+#home-section4-text {
     width: 67%;
     height: auto;
     float: left;
@@ -320,8 +389,8 @@ footer div i{
 
 /* Our Brands Page Rules */
 
-#ourbrands-front-img{
-    background:url(../images/our-brands-img.jpg) no-repeat center bottom;
+#ourbrands-front-img {
+    background: url(../images/our-brands-img.jpg) no-repeat center bottom;
     width: 100%;
     height: 600PX;
     margin-top: 90px;
@@ -329,31 +398,31 @@ footer div i{
     position: relative;
 }
 
-#ourbrands-front-img h1{
+#ourbrands-front-img h1 {
     position: absolute;
     font-family: Patua+One, sans-serif;
-    color:aliceblue;
+    color: aliceblue;
     font-size: 400%;
     font-weight: bold;
     text-transform: uppercase;
-    top: 50%; 
+    top: 50%;
     left: 30%;
     transform: translate(-50%, -50%);
 }
 
-.ourbrands-box{ 
+.ourbrands-box {
     width: 1170px;
     height: auto;
     margin: 60px auto 0 auto;
     overflow: auto;
 }
 
-.ourbrands-box-div{
+.ourbrands-box-div {
     overflow: auto;
     margin-bottom: 60px;
 }
 
-.ourbrands-box-title{
+.ourbrands-box-title {
     border-bottom: 3px groove;
     margin-bottom: 40px;
     font-family: Hebbo, sans-serif;
@@ -365,14 +434,14 @@ footer div i{
     width: 350px;
 }
 
-.ourbrands-img img{
+.ourbrands-img img {
     width: 100px;
     height: 250px;
     float: left;
     object-fit: contain;
 }
 
-.ourbrands-text{
+.ourbrands-text {
     width: 90%;
     height: auto;
     float: right;
@@ -380,16 +449,17 @@ footer div i{
     line-height: 1.3;
 }
 
-.ourbrands-text h5{
+.ourbrands-text h5 {
     font-size: 150%;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.ourbrands-text p{
+
+.ourbrands-text p {
     margin-bottom: 3px;
 }
 
-.ourbrands-text h4{
+.ourbrands-text h4 {
     font-size: 130%;
     font-weight: bold;
     margin-top: 10px;
@@ -399,24 +469,24 @@ footer div i{
 /* Wine tours Page Rules */
 
 
-#winetours-front-img{
+#winetours-front-img {
     background-color: #A32E2E;
     width: 100%;
     height: 600px;
     margin-top: 90px;
 }
 
-#winetours-front-title{
+#winetours-front-title {
     border: 1px solid;
 
 }
 
-#winetours-front-text{
+#winetours-front-text {
     border: 1px solid;
 
 }
 
-.winetours-box{
+.winetours-box {
     background-color: aqua;
     width: 1170px;
     height: auto;
@@ -424,14 +494,14 @@ footer div i{
     overflow: auto;
 }
 
-.winetours-box div{
+.winetours-box div {
     margin-bottom: 50px;
     height: auto;
 
 }
 
 
-.section2-left{
+.section2-left {
     background-color: orange;
     width: 50%;
     height: 200px;
@@ -439,47 +509,46 @@ footer div i{
 
 }
 
-.section2-right{
+.section2-right {
     background-color: green;
     width: 50%;
     height: 200px;
     float: right;
 
 }
-.winetours-section3 div{
+
+.winetours-section3 div {
     overflow: auto;
     border: 1px solid;
 }
 
-.winetours-section3 h3{
+.winetours-section3 h3 {
     border: 1px solid;
     float: right;
     width: 30%;
 }
 
-.winetours-section3 img{
+.winetours-section3 img {
     border: 1px solid;
     width: 30%;
     height: 200px;
     float: left;
 }
 
-.winetours-section3 p{
+.winetours-section3 p {
     border: 1px solid;
     float: right;
     width: 60%;
 }
-.winetours-section3 h4{
+
+.winetours-section3 h4 {
     border: 1px solid;
     float: left;
     width: 30%;
 }
-.winetours-section3 input{
+
+.winetours-section3 input {
     border: 1px solid;
     float: right;
     width: 30%;
 }
-
-
-
-
