@@ -25,10 +25,22 @@ body {
     z-index: 1;
 }
 
+.logo {
+    height: auto;
+    width: 50%;
+}
+
 .logo img {
-    float: left;
     padding-left: 10px;
     height: 80px;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
+.navbar li a:hover {
+    color: blue;
 }
 
 
@@ -36,91 +48,91 @@ body {
 
 @media screen and (max-width: 900px) {
 
-.navbar{
-    display: none;
+    .nav-box {
+        width: 20%;
+        float: right;
+        margin-top: 2px;
+    }
 
+    .nav-burger {
+        display: none;
+    }
+
+    .burger-menu {
+        border: 3px solid;
+        padding: 0 10px;
+        font-size: 60px;
+        text-align: center;
+        margin-left: 30%;
+
+    }
+
+    .nav-burger:checked~nav {
+        display: block;
+    }
+
+    .navbar {
+        background-color: #dddd;
+        display: none;
+        text-align: left;
+        width: auto;
+        padding-bottom: 20px;
+
+    }
+
+    .navbar li {
+        list-style-type: none;
+        padding-left: 20px;
+        padding-top: 20px;  
+
+    }
+
+    .navbar li a {
+        font-size: 150%;
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
-.nav-burger{
-    display: none;
-}
-
-.burger-box{
-    border: 3px solid;
-    width: 70px;
-    height: 70px;
-    margin-left: 60%;
-    margin-top: 2.5px;
-    text-align: center;
-    border-radius: 10px;
-    
-}
-
-.burger-menu{
-    width: 60px;
-    padding: auto;
-    font-size: 60px;
-    height: 100px;
-   
-}
-
-
-
-.nav-burger:checked ~ nav {
-    display: block;
-}
-
-}
-
-
-.active {
-    border-bottom: 1px solid;
-}
 
 /* Responsive rules for screens smaller than 900px */
 
 @media screen and (min-width: 900px) {
 
-.navbar {
-    line-height: 80px;
-    font-size: 120%;
-    letter-spacing: 2px;
-    text-align: center;
-    
+.nav-box{
+    float: right;
+    width: 75%;
 }
 
-.navbar li {
-    list-style-type: none;
-    margin-right: 20px;
-    display: inline-block;
-    
+    .navbar {
+        line-height: 80px;
+        font-size: 120%;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .navbar li {
+        list-style-type: none;
+        margin-right: 20px;
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav-burger {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
 }
-
-.navbar li a {
-    text-decoration: none;
-    color: inherit;
-    transition: all 0.3s ease 0s;
-}
-
-.navbar li a:hover {
-    color: blue;
-}
-
-.nav-burger{
-    display: none;
-}
-
-.burger-menu{
-    display: none;
-}
-
-}
-
-
-
-
-
-
 
 
 /* Footer rules */
