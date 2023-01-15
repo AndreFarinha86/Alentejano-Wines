@@ -2,12 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@300&family=Patua+One&display=swap');
 
+
+/* Reset default properties*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* General text rules*/
 body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
@@ -16,6 +19,7 @@ body {
 
 /* Header, logo and nav bar rules */
 
+/* Header */
 .header {
     background-color: #dddd;
     height: 80px;
@@ -25,12 +29,14 @@ body {
     z-index: 1;
 }
 
+/* Logo */
 .logo img {
     padding-left: 10px;
     height: 80px;
     float: left;
 }
 
+/* Navbar */
 .navbar {
     line-height: 80px;
     font-size: 120%;
@@ -59,96 +65,19 @@ body {
 }
 
 
-
-/* Footer rules */
-
-
-footer {
-    background-color: rgba(177, 18, 38, 0.8);
-    width: 100%;
-    height: 150px;
-    margin-top: 40px;
-    clear: both;
-}
-
-footer div {
-    display: inline-block;
-}
-
-footer div i {
-    color: rgb(32, 31, 31);
-}
-
-.bold {
-    font-size: 150%;
-    font-weight: bold;
-    margin: 5px auto;
-    text-align: center;
-    padding-top: 10px;
-}
-
-#footer-left {
-    float: left;
-    width: 33%;
-}
-
-#footer-left p {
-    text-align: center;
-    padding-top: 40px;
-}
-
-#footer-right {
-    float: right;
-    width: 33%;
-}
-
-
-#footer-right ul {
-    text-align: center;
-}
-
-#footer-right li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 3%;
-}
-
-#footer-right i {
-    font-size: 150%;
-}
-
-#footer-center {
-    width: 34%;
-}
-
-#footer-center ul {
-    margin: 0 auto;
-    width: 35%;
-}
-
-#footer-center li {
-    list-style-type: none;
-    padding-top: 5px;
-}
-
-#footer-center p {
-    text-align: center;
-}
-
-
 /* Home Page Rules */
 
 /* Home front section rules */
-
 .home-front-box {
     margin-top: 100px;
 }
 
+/* Home front backgroung image rules */
 #home-front-img {
     background: url(../images/Home-Front-img.jpg) no-repeat top center;
     background-size: 100%;
-    height: 600px;
-    
+    height: 40vw;
+
     /* Home front image animation zoom out rules on loading page */
     animation-name: front-img-animation;
     animation-duration: 3s;
@@ -166,9 +95,7 @@ footer div i {
     }
 }
 
-
 /* Home front section title rules */
-
 #home-front-title {
     font-family: Patua+One, sans-serif;
     font-size: 3vw;
@@ -183,10 +110,7 @@ footer div i {
     padding-left: 4vw;
 }
 
-
 /* Home front section text rules */
-
-
 #home-front-text {
     font-family: Hebbo, sans-serif;
     font-size: 1.2vw;
@@ -211,6 +135,94 @@ footer div i {
     margin-right: 3.5vw;
     display: inline-block;
 }
+
+
+
+/* Footer rules */
+
+footer {
+    background-color: rgba(177, 18, 38, 0.8);
+    width: 100%;
+    height: 150px;
+    margin-top: 5vw;
+    clear: both;
+    padding: 0 2px;
+}
+
+footer div {
+    display: inline-block;
+}
+
+footer div i {
+    color: rgb(32, 31, 31);
+}
+
+.footer-bold {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Footer copyright rules */
+#footer-copyright-box {
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Footer contact rules */
+#footer-contact-box {
+    width: 34%;
+}
+
+#footer-contact-box ul {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#footer-contact-box li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+#footer-contact-box p {
+    text-align: center;
+}
+
+/* Footer media rules */
+#footer-media-box {
+    float: right;
+    width: 33%;
+}
+
+#footer-media-box ul {
+    text-align: center;
+}
+
+#footer-media-box li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 3%;
+}
+
+#footer-media-box i {
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -497,20 +509,22 @@ footer div i {
 /* Responsive rules for screens bigger than 900px */
 
 @media screen and (min-width: 900px) {
+
+    /* Header, logo and nav bar rules */
     .nav-burger {
         display: none;
     }
-    
+
     .burger-menu {
         display: none;
     }
 }
 
-
 /* Responsive rules for screens smaller than 900px */
 
 @media screen and (max-width: 900px) {
 
+    /* Header, logo and nav bar rules */
     .nav-box {
         width: 30%;
         float: right;
@@ -549,15 +563,27 @@ footer div i {
         padding-top: 20px;
     }
 
+    /* Home front section rules */
     #home-front-text {
-        top: 40vw;  
+        top: 40vw;
     }
+
+
+    /* Footer rules */
+
+    #footer-contact-box ul {
+        width: 80%;
+    }
+
+
 }
+
 
 /* Responsive rules for screens smaller than 550px */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
+    /* Header, logo and nav bar rules */
     .header {
         height: 55px;
     }
@@ -577,21 +603,61 @@ footer div i {
     }
 
     .navbar {
-       font-size: 80%;
+        font-size: 80%;
     }
 
+    /* Home front section rules */
     .home-front-box {
         margin-top: 75px;
-     
+
     }
+
     #home-front-title {
         top: 75px;
     }
 
     #home-front-text {
-        top: 45vw;  
+        top: 45vw;
     }
 
 
+    /* Footer rules */
+    footer {
+        height: 200px;
+    }
+
+    /* Footer copyright rules */
+    #footer-copyright-box {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Footer contact rules */
+    #footer-contact-box {
+        width: 50%;
+        float: left;
+    }
+
+    /* Footer media rules */
+    #footer-media-box {
+        float: right;
+        width: 50%;
+    }
+
 }
 
+/* Responsive rules for screens smaller than 350px */
+
+@media screen and (max-width: 350px) {
+
+     /* Footer rules */
+    footer {
+        height: 300px;
+    }
+
+    #footer-copyright-box, #footer-contact-box, #footer-media-box{
+        overflow: auto;
+        width: 100%;
+    }
+}
