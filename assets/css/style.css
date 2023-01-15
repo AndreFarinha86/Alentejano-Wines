@@ -188,7 +188,6 @@ body {
 /* Home page main content rules */
 
 /* Home section 2 */
-
 #home-section2-text {
     width: 56%;
     height: auto;
@@ -220,6 +219,45 @@ body {
     text-align: center;
     transform: translate(0%, 270%);
 }
+
+/* Content section 3 */
+#home-section3-text {
+    width: 58%;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+
+#home-section3-img img {
+    width: 40%;
+    height: 470px;
+    float: right;
+    object-fit: cover;
+}
+
+/* Content section 4 */
+#home-section4-img1 {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#home-section4-text {
+    width: 58%;
+    height: auto;
+    float: left;
+    padding-left: 10px;
+}
+
+#home-section4-img2 img {
+    width: 40%;
+    height: 450px;
+    float: right;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -318,45 +356,7 @@ footer div i {
 
 
 
-/* Content section 3 */
 
-#home-section3-img img {
-    width: 350px;
-    height: 470px;
-    float: right;
-    object-fit: cover;
-}
-
-#home-section3-text {
-    width: 67%;
-    height: auto;
-    float: left;
-    padding-right: 10px;
-}
-
-
-/* Content section 4 */
-
-#home-section4-img1 {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-#home-section4-img2 img {
-    width: 350px;
-    height: 450px;
-    float: right;
-    object-fit: cover;
-}
-
-#home-section4-text {
-    width: 67%;
-    height: auto;
-    float: left;
-    padding-left: 10px;
-}
 
 
 /* Our Brands Page Rules */
@@ -654,20 +654,19 @@ footer div i {
     }
 
     /* Home content sections rules */
-    #home-section2-text {
+    #home-section2-text, #home-section3-text, #home-section4-text {
         width: 95%;
         float: none;
         margin-bottom: 25px;
     }
 
-    #home-section2-img {
+    #home-section2-img, #home-section3-img img, #home-section4-img2 img {
         width: 100%;
         height: 450px;
         float: none;
         margin: 0 auto;
     }
 
-    
 
 
     /* Footer rules */
