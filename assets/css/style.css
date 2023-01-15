@@ -562,11 +562,13 @@ footer div i {
     }
 
     .burger-menu {
-        border: 3px solid;
+        border: 2px solid;
         padding: 0 5%;
-        font-size: 60px;
+        font-size: 40px;
         text-align: center;
         margin-left: 30%;
+        line-height: 75px;
+        cursor: pointer;
     }
 
     .nav-burger:checked~nav {
@@ -624,11 +626,18 @@ footer div i {
         font-size: 40px;
         text-align: center;
         margin-left: 30%;
+        line-height: 50px;
+        cursor: pointer;
     }
 
     .navbar {
         font-size: 80%;
     }
+
+    .navbar li {
+        padding-top: 5px;
+    }
+
 
     /* Home front section rules */
     .home-front-box {
