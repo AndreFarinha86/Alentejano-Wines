@@ -44,6 +44,8 @@ body {
     line-height: 1.5;
 }
 
+/* Read more button */
+
 .readmore-check {
     display: none;
 }
@@ -59,6 +61,16 @@ body {
 
 .readmore-check:checked~.more-text {
     display: block;
+}
+
+.readmore-check:checked~.readmore-button {
+    visibility: hidden;
+}
+
+.readmore-check:checked~.readmore-button::after {
+    content: 'Less >>';
+    display: block;
+    visibility: visible;
 }
 
 
