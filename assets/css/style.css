@@ -102,6 +102,8 @@ body {
     visibility: visible;
 }
 
+
+
 /***********************************/
 /* Header, logo and nav bar rules */
 /*********************************/
@@ -155,16 +157,17 @@ body {
     display: none;
 }
 
+
+
 /********************/
 /* Home Page Rules */
 /******************/
-
 
 /* Home front section rules */
 #home-front {
     background-image: url(../images/Home-Front-img.jpg);
     background-position: top;
-  
+
     /* Home front image animation zoom out rules on loading page */
     animation-name: front-img-animation;
     animation-duration: 3s;
@@ -182,45 +185,42 @@ body {
     }
 }
 
-/* Home front section title rules */
-#home-front-title {
+#home-front div {
+    padding-top: 8vw;
+    padding-left: 10vw;
+}
+
+#home-front h1,
+h3 {
     font-family: Patua+One, sans-serif;
-    font-size: 3vw;
     color: #A32E2E;
+    text-decoration: none;
     text-align: center;
-    width: 100%;
-    top: 100px;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    padding-top: 7vw;
-    padding-left: 4vw;
-    border: 1px solid;
 }
 
-/* Home front section text rules */
-#home-front-text {
-    font-family: Hebbo, sans-serif;
-    font-size: 1.2vw;
-    color: whitesmoke;
-    text-align: center;
-    position: absolute;
-    top: 30vw;
-    left: 0.3vw;
-    text-transform: uppercase;
-
-    width: 23.5vw;
-    height: 5.5vw;
-
-    padding-top: 2vw;
-
-    background: rgba(177, 18, 38, 0.8);
-    border-radius: 2vw;
+#home-front h1 {
+    font-size: 5vw;
 }
 
-#home-front-text li {
+#home-front h3 {
+    font-size: 3vw;
+}
+
+#home-front h2 {
+    padding: 1.2vw;
+    width: fit-content;
+    font-size: 2vw;
+    margin-top: 12vw;
+    margin-left: 1vw;
+}
+
+#home-front li {
     list-style-type: none;
-    margin-right: 3.5vw;
     display: inline-block;
+    font-weight: normal;
+    padding-top: 0.5vw;
+    padding-right: 2.3vw;
 }
 
 /* Home page main content rules */
@@ -297,7 +297,6 @@ body {
 
 
 
-
 /**************************/
 /* Our Brands Page Rules */
 /************************/
@@ -311,6 +310,8 @@ body {
     padding-top: 15vw;
     padding-left: 5vw;
 }
+
+
 
 /**************************/
 /* Wine Tours Page Rules */
@@ -333,6 +334,8 @@ body {
     width: 60vw;
 }
 
+
+
 /**************************/
 /* Wine Club Page Rules */
 /************************/
@@ -353,6 +356,8 @@ body {
     text-align: center;
     width: 45vw;
 }
+
+
 
 /*****************/
 /* Footer rules */
@@ -450,27 +455,7 @@ footer div i {
 
 
 /* Our Brands Page Rules */
-/*
-#ourbrands-front-img {
-    background: url(../images/our-brands-img.jpg) no-repeat center bottom;
-    width: 100%;
-    height: 600PX;
-    margin-top: 90px;
-    object-fit: fill;
-    position: relative;
-}
 
-#ourbrands-front-img h1 {
-    position: absolute;
-    font-family: Patua+One, sans-serif;
-    color: aliceblue;
-    font-size: 400%;
-    font-weight: bold;
-    text-transform: uppercase;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-}
 
 .ourbrands-box {
     width: 1170px;
@@ -528,104 +513,17 @@ footer div i {
 }
 
 
-/* Wine tours Page Rules */
-/*
-
-
-#winetours-front-img {
-    background-color: #A32E2E;
-    width: 100%;
-    height: 600px;
-    margin-top: 90px;
-}
-
-#winetours-front-title {
-    border: 1px solid;
-
-}
-
-#winetours-front-text {
-    border: 1px solid;
-
-}
-
-.winetours-box {
-    background-color: aqua;
-    width: 1170px;
-    height: auto;
-    margin: 60px auto 0 auto;
-    overflow: auto;
-}
-
-.winetours-box div {
-    margin-bottom: 50px;
-    height: auto;
-
-}
-
-
-.section2-left {
-    background-color: orange;
-    width: 50%;
-    height: 200px;
-    float: left;
-
-}
-
-.section2-right {
-    background-color: green;
-    width: 50%;
-    height: 200px;
-    float: right;
-
-}
-
-.winetours-section3 div {
-    overflow: auto;
-    border: 1px solid;
-}
-
-.winetours-section3 h3 {
-    border: 1px solid;
-    float: right;
-    width: 30%;
-}
-
-.winetours-section3 img {
-    border: 1px solid;
-    width: 30%;
-    height: 200px;
-    float: left;
-}
-
-.winetours-section3 p {
-    border: 1px solid;
-    float: right;
-    width: 60%;
-}
-
-.winetours-section3 h4 {
-    border: 1px solid;
-    float: left;
-    width: 30%;
-}
-
-.winetours-section3 input {
-    border: 1px solid;
-    float: right;
-    width: 30%;
-}
-
-
-
-/* Responsive response rules */
-
+/******************/
+/* Media Queries */
+/****************/
 
 /* Responsive rules for screens bigger than 900px */
 
 @media screen and (min-width: 900px) {
 
+    /***********************************/
     /* Header, logo and nav bar rules */
+    /*********************************/
     .burger-menu {
         display: none;
     }
@@ -639,12 +537,16 @@ footer div i {
 
 @media screen and (max-width: 900px) {
 
-    /* General rules to all pages content */
+    /******************/
+    /* General Rules */
+    /****************/
     .more-text {
         display: none;
     }
 
+    /***********************************/
     /* Header, logo and nav bar rules */
+    /*********************************/
     .nav-box {
         width: 30%;
         float: right;
@@ -681,18 +583,13 @@ footer div i {
         padding-top: 20px;
     }
 
-    /* Home front section rules */
-    #home-front-text {
-        top: 40vw;
-    }
 
+    /*****************/
     /* Footer rules */
-
+    /***************/
     #footer-contact-box ul {
         width: 80%;
     }
-
-
 }
 
 /* Responsive rules for screens smaller than 650px */
@@ -703,14 +600,13 @@ footer div i {
     /* General Rules */
     /****************/
 
-
     .front-section {
         margin-top: 75px;
     }
 
-
-
+    /***********************************/
     /* Header, logo and nav bar rules */
+    /*********************************/
     .header {
         height: 55px;
     }
@@ -739,19 +635,9 @@ footer div i {
         padding-top: 5px;
     }
 
-
     /* Home front section rules */
     .home-front-box {
         margin-top: 75px;
-
-    }
-
-    #home-front-title {
-        top: 75px;
-    }
-
-    #home-front-text {
-        top: 45vw;
     }
 
     /* Home content sections rules */
@@ -773,8 +659,9 @@ footer div i {
     }
 
 
-
+    /*****************/
     /* Footer rules */
+    /***************/
     footer {
         height: 200px;
     }
@@ -804,7 +691,9 @@ footer div i {
 
 @media screen and (max-width: 350px) {
 
+    /*****************/
     /* Footer rules */
+    /***************/
     footer {
         height: 300px;
     }
