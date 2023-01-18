@@ -311,6 +311,49 @@ h3 {
     padding-left: 5vw;
 }
 
+/* Our Brands front section rules */
+
+
+.ourbrands-box-div {
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.ourbrands-img img {
+    width: 10%;
+    max-height: 250px;
+    float: left;
+    object-fit: contain;
+    
+    
+}
+
+.ourbrands-text {
+    width: 86%;
+    height: auto;
+    float: right;
+    text-align: justify;
+    line-height: 1.3;
+    
+    
+}
+
+.ourbrands-text h5 {
+    font-size: 150%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.ourbrands-text p {
+    margin-bottom: 3px;
+}
+
+.ourbrands-text h4 {
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
 
 /**************************/
@@ -456,30 +499,15 @@ footer div i {
 
 /* Our Brands Page Rules */
 
+/*
 
-.ourbrands-box {
-    width: 1170px;
-    height: auto;
-    margin: 60px auto 0 auto;
-    overflow: auto;
-}
 
 .ourbrands-box-div {
     overflow: auto;
     margin-bottom: 60px;
 }
 
-.ourbrands-box-title {
-    border-bottom: 3px groove;
-    margin-bottom: 40px;
-    font-family: Hebbo, sans-serif;
-    font-size: 200%;
-    color: rgb(89, 62, 47);
-    text-align: left;
-    text-transform: uppercase;
-    padding-left: 2%;
-    width: 350px;
-}
+
 
 .ourbrands-img img {
     width: 100px;
