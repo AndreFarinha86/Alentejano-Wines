@@ -283,11 +283,11 @@ body {
 /************************/
 
 /* Our Brands front section rules */
-#ourbrands-front {
+.ourbrands-front {
     background-image: url(../images/our-brands-img.jpg);
 }
 
-#ourbrands-front h1 {
+.ourbrands-front h1 {
     padding-top: 15vw;
     padding-left: 5vw;
 }
@@ -295,7 +295,7 @@ body {
 /* Our Brands content sections rules */
 .ourbrands-box-div {
     overflow: auto;
-    margin-bottom: 10px;
+    margin-bottom: 4rem;
 }
 
 .ourbrands-img img {
@@ -433,9 +433,7 @@ body {
 /*****************/
 /* Footer rules */
 /***************/
-
-
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -447,8 +445,7 @@ footer{
     margin-top: 20px;
 }
 
-
-footer li{
+footer li {
     list-style-type: none;
 }
 
@@ -557,13 +554,12 @@ footer i {
         margin-top: 65px;
     }
 
-
     .content-box h1 {
         font-size: 1.8em;
     }
 
     .content-box h2 {
-        font-size: 150%;
+        font-size: 1em;
     }
 
     .content-box h3 {
@@ -571,7 +567,7 @@ footer i {
     }
 
     .content-box h4 {
-        font-size: 130%;
+        font-size: 1em;
     }
 
     .content-box p {
@@ -633,9 +629,10 @@ footer i {
         height: 250px;
     }
 
-
-    footer{
+    /*****************/
+    /* Footer rules */
+    /***************/
+    footer {
         gap: 2rem 5rem;
     }
-  }
-
+}
