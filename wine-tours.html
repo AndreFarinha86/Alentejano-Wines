@@ -41,16 +41,16 @@
         </div>
     </header>
 
-    <section class="front-section" id="winetours-front">
+    <section class="front-section winetours-front">
         <h1>Wine Tours</h1>
         <h2>Visit our estate, our culture and be part of a fantastic gastronomic experience
         </h2>
     </section>
 
-    <section>
-        <h2>Take a view in our experiences</h2>
-        <div>
-            <div>
+    <section class="content-box">
+        <h1>Take a view in our experiences</h1>
+        <div class="experiences-box-div">
+            <div class="float-right experiences-text">
                 <P>Alentejo has a predominantly Mediterranean climate - hot, dry and sunny, with large continental
                     influence, which translates into unique conditions for the vineyard cultivation. The landscape is
                     made up of wide plains and hills, with a predominance of clay, granite, limestone, and schist soil.
@@ -67,12 +67,14 @@
                 <P>In the south of Alentejo, hotter and drier, are the sub-regions of Moura, Vidigueira and
                     Granja-Amareleja.</P>
             </div>
-            <div>
-                <iframe src="https://www.youtube.com/watch?v=fT1WxyC1Vxc"></iframe>
+            <div class="float-left experiences-video">
+                <iframe src="https://www.youtube.com/embed/fT1WxyC1Vxc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="experiences-box-div">
+            <div class="float-left experiences-text">
                 <p>In order to get to know the region's food and wine culture nothing better than visiting a winery,
                     where you can learn about the whole process of winemaking, visit the facilities, the vineyards as
                     well as taste the true nectar, accompanied by the local gastronomy delicacies. The region also
@@ -92,40 +94,57 @@
                     bread soups, migas (cornbread dish), gazpacho, lamb stew, Alentejo pork meat with clams, or the
                     purslane soup are some of the most prized dishes in this region.</p>
             </div>
-            <div>
-                <<iframe src="https://www.youtube.com/watch?v=EidIMZ3-NJI"></iframe>
+            <div class="float-right experiences-video">
+                <iframe src="https://www.youtube.com/embed/EidIMZ3-NJI" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <section>
-        <h2>Our tours</h2>
-            <div>
-                <h3>Wine tasting with Tapas</h3>
-                <img src="assets/images/wine-tasting.jpg" alt="Wine tasting with Tapas tour">
-                <p>Come visit winery and, with the passion of those who venture to explore their senses, taste 4 wines and
-                    try a major selection of regional flavours. If you want to bring your family, we have a special program
-                    for the little ones.</p>
+    <section class="content-box">
+        <h1>Our tours</h1>
+        <div class="tours-box">
+            <h2 class="tours-text float-right">Wine tasting with Tapas</h2>
+            <img class="tours-img float-left" src="assets/images/wine-tasting.jpg" alt="Wine tasting with Tapas tour">
+            <div class="tours-text float-right">
+                <p>Come visit winery and, with the passion of those who venture to explore their senses, taste 4 wines
+                    and try a major selection of regional flavours. If you want to bring your family, we have a special
+                    program for the little ones.</p>
                 <p>The visit begins with our history. A film in our auditorium invites you to travel back in time to
                     discover how winery was born, its first steps and how the wines are produced.</p>
-                <p>The people who visit our winery, have the opportunity to go through the different stages of wine making
-                    and, in the casks room, they get to know about all of our wines’ production secrets.</p>
-                <p>The visit ends with a tasting of four 4 wines and a Major selection of regional products, to get to know
-                    more about the aromas and flavours of Alentejo.</p>
+                <p>The people who visit our winery, have the opportunity to go through the different stages of wine
+                    making and, in the casks room, they get to know about all of our wines’ production secrets.</p>
+                <p>The visit ends with a tasting of four 4 wines and a Major selection of regional products, to get to
+                    know more about the aromas and flavours of Alentejo.</p>
                 <p>You can also enjoy the view from the terrace of winery, where great wines are drawn.</p>
-                <h6>Highlights:</h6>
+            </div>
+            <div class="tours-text float-right">
+                <h3>Highlights:</h3>
                 <ul>
                     <li>A complete visit to winery for 2 hours;</li>
-                    <li>4 Wines for tasting: 2 red and 2 white wines, from the AM Reserva/Seleção range and a higher range;</li>
-                    <li>Tasting of a selection of regional cheeses, “tibornas” with olive oil and oregano and traditional
-                        jelly.</li>
+                    <li>4 Wines for tasting: 2 red and 2 white wines, from the AM Reserva/Seleção range and a higher
+                        range;</li>
+                    <li>Tasting of a selection of regional cheeses, “tibornas” with olive oil and oregano and
+                        traditional jelly.</li>
                 </ul>
-                <h4>Duration 4h</h4>
-                <h4>Price 40</h4>
             </div>
-            <div>
-                <h3>Hands-on harvest</h3>
-                <img src="assets/images/harvest.jpg" alt="Hands-on harvest tour">
+            <div class="tours-text float-right tours-price-layout">
+                <div>
+                    <h4><i class="fa-regular fa-clock"></i> Duration 4h</h4>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-basket-shopping"></i> 40 <i class="fa-solid fa-euro-sign"></i></h4>
+                </div>
+                <div>
+                    <a href="#booktour" aria-label="Go to book tour form">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="tours-box">
+            <h2 class="tours-text float-right">Hands-on harvest</h2>
+            <img class="tours-img float-left" src="assets/images/harvest.jpg" alt="Hands-on harvest tour">
+            <div class="tours-text float-right">
                 <p>In this activity, we invite you to participate in a unique moment of wine production, the grape
                     harvest.</p>
                 <p>We will go to the vineyards and start by checking the maturity of the different grape varieties. If
@@ -137,7 +156,9 @@
                     then crush the grapes with our bare feet and, of course, taste wine!</p>
                 <p>At the end, as a souvenir of the experience, a bottle of wine will be offered to each participant.
                 </p>
-                <h6>Highlights:</h6>
+            </div>
+            <div class="tours-text float-right">
+                <h3>Highlights:</h3>
                 <ul>
                     <li>Visit to the vineyards and harvest;</li>
                     <li>Activities in the vineyards, picking the grapes;</li>
@@ -145,32 +166,42 @@
                     <li>Visit to the facilities and winery, with an accompaniment of the wine-making process;</li>
                     <li>Regional lunch, with wine tasting.</li>
                 </ul>
-                <h4>Duration 6h</h4>
-                <h4>Price 55</h4>
             </div>
-            <div>
-                <h3>Be a winemaker for a day</h3>
-                <img src="assets/images/winemaker.jpg" alt="winemaker for a day tour">
+            <div class="tours-text float-right tours-price-layout">
+                <div>
+                    <h4><i class="fa-regular fa-clock"></i> Duration 6h</h4>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-basket-shopping"></i> 55 <i class="fa-solid fa-euro-sign"></i></h4>
+                </div>
+                <div>
+                    <a href="#booktour" aria-label="Go to book tour form">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tours-box">
+            <h2 class="tours-text float-right">Be a winemaker for a day</h2>
+            <img class="tours-img float-left" src="assets/images/winemaker.jpg" alt="winemaker for a day tour">
+            <div class="tours-text float-right">
                 <p>Join us for a unique wine experience where you create your own wine and become a winemaker for a day.
-                    Learn more about different grape varieties and make your own blend during this wine workshop.
-                    We will start with a visit to the winery, in order to show the history and our winemaking style.</p>
+                    Learn more about different grape varieties and make your own blend during this wine workshop. We
+                    will start with a visit to the winery, in order to show the history and our winemaking style.</p>
                 <p>We will make a tasting of several wines, of which, some single variety, to give some hints of tasting
                     notes.</p>
                 <p>So, after that, you will be ready to make your own wine. Under the tutelage of an oenologist at the
                     Winery, you will have a chance to blend your own wine and take away a special bottle of your
-                    creation
-                    with your name on it.</p>
+                    creation with your name on it.</p>
                 <p>You will have at your disposal pipettes, beakers, funnels, paper & pens, you will start by dividing
-                    the
-                    tasks among the group. Nothing will be left behind. From the wine blend to the label design, you
-                    will
-                    have to do everything and our winemaker team will taste it and evaluate your creation.</p>
+                    the tasks among the group. Nothing will be left behind. From the wine blend to the label design, you
+                    will have to do everything and our winemaker team will taste it and evaluate your creation.</p>
                 <p>Guaranteed fun ... a very positive way to spend a moment among friends or family, and why not offer
-                    the
-                    bottle created to a loved one?</p>
+                    the bottle created to a loved one?</p>
                 <p>The activity will be accompanied by a plate of snacks.</p>
                 <p>Discover our wine heritage in a relaxed way and in true Maçanita style!</p>
-                <h6>Highlights:</h6>
+            </div>
+            <div class="tours-text float-right">
+                <h3>Highlights:</h3>
                 <ul>
                     <Li>Arrival at the winery and welcome by the producer;</Li>
                     <Li>Guided tour to the winery and cellars;</Li>
@@ -183,95 +214,112 @@
                     </ul>
                     <Li>Take home your own wine in a 375 ml bottle.</Li>
                 </ul>
-                <h4>Duration 6h</h4>
-                <h4>Price 100</h4>
             </div>
-
-            <div>
-                <h3>Full visit</h3>
-                <img src="assets/images/full-visit.jpg" alt="Full visit tour">
+            <div class="tours-text float-right tours-price-layout">
+                <div>
+                    <h4><i class="fa-regular fa-clock"></i> Duration 6h</h4>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-basket-shopping"></i> 100 <i class="fa-solid fa-euro-sign"></i></h4>
+                </div>
+                <div>
+                    <a href="#booktour" aria-label="Go to book tour form">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="tours-box">
+            <h2 class="tours-text float-right">Full visit</h2>
+            <img class="tours-img float-left" src="assets/images/full-visit.jpg" alt="Full visit tour">
+            <div class="tours-text float-right">
                 <p>Join us on a 4×4 tour along the dirt roads of the estate. Absorb the knowledge of our guides and feel
                     proud to call the Alentejo your home.</p>
                 <p>Discover our special connection to the generous lands of the Alentejo, from which we produce cork,
-                    wine,
-                    Iberian pork and honey. Immerse yourself deep in the cork oak forest to understand how cork grows
-                    and is
-                    appreciated in the Alentejo. Feel its ecosystem, drink pure water, smell the flowers and touch the
-                    trees. Get out of the jeep to feel the textures, appreciate the view, and learn through experience.
-                    At
-                    the end of the tour, climb the hillside and enjoy an incredible 360º view, of the boundaries of the
-                    estate and the beautiful landscape.</p>
+                    wine, Iberian pork and honey. Immerse yourself deep in the cork oak forest to understand how cork
+                    grows and is appreciated in the Alentejo. Feel its ecosystem, drink pure water, smell the flowers
+                    and touch the trees. Get out of the jeep to feel the textures, appreciate the view, and learn
+                    through experience. At the end of the tour, climb the hillside and enjoy an incredible 360º view, of
+                    the boundaries of the estate and the beautiful landscape.</p>
                 <p>After the jeep tour, discover the world of wines on a guided tour of the estate, where you will visit
                     the winery and tasting room. Then you will enjoy a tasting of wines, accompanied by Iberian pork ham
-                    and
-                    cheese.</p>
+                    and cheese.</p>
                 <p>At the end of the morning, filled with activities, you will have lunch in a typical Alentejo
-                    restaurant,
-                    with a traditional menu of the region, accompanied by Alentejo wines.</p>
-
+                    restaurant, with a traditional menu of the region, accompanied by Alentejo wines.</p>
                 <P>Adventure yourself on an off-road journey through the Alentejo's "montado" (cork oak forest)!</P>
-                <h6>Highlights:</h6>
+            </div>
+            <div class="tours-text float-right">
+                <h3>Highlights:</h3>
                 <ul>
                     <Li>Jeep Tour at estate;</Li>
                     <Li>Guided visit to the winery;</Li>
                     <Li>Wine tasting, accompanied by Iberian pork "presunto" and cheese;</Li>
                     <Li>Lunch in a typical restaurant (drinks included).</Li>
                 </ul>
-                <h4>Duration 9h</h4>
-                <h4>Price 150</h4>
             </div>
-    </section>
+            <div class="tours-text float-right tours-price-layout">
+                <div>
+                    <h4><i class="fa-regular fa-clock"></i> Duration 9h</h4>
+                </div>
+                <div>
+                    <h4><i class="fa-solid fa-basket-shopping"></i> 150 <i class="fa-solid fa-euro-sign"></i>
+                    </h4>
+                </div>
+                <div>
+                    <a href="#booktour" aria-label="Go to book tour form">Book Now</a>
+                </div>
+            </div>
+        </div>
 
-    <section>
-        <h2>Book now</h2>
-        <div>
+
+        <section class="content-box">
+            <h1>Book now</h1>
             <div>
-                form
+                <div>
+                    form
+                </div>
+                <div>
+                    map
+                </div>
             </div>
-            <div>
-                map
+        </section>
+
+
+
+        <footer>
+            <div id="footer-contact-box">
+                <p class="footer-bold">Contact Us</p>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> 000 000 000</li>
+                    <li><i class="fa-solid fa-envelope"></i> info@alentejo.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Alentejo</li>
+                </ul>
             </div>
-        </div>
-    </section>
+            <div id="footer-media-box">
+                <p class="footer-bold">Follow us on</p>
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                            aria-label="Visit our Youtube page (opens in a new tab)"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-copyright-box">
+                <p><i class="fa-sharp fa-solid fa-copyright"></i> COPYRIGHT All rights reserved</p>
+            </div>
+        </footer>
 
-
-
-    <footer>
-        <div id="footer-contact-box">
-            <p class="footer-bold">Contact Us</p>
-            <ul>
-                <li><i class="fa-solid fa-phone"></i> 000 000 000</li>
-                <li><i class="fa-solid fa-envelope"></i> info@alentejo.com</li>
-                <li><i class="fa-solid fa-location-dot"></i> Alentejo</li>
-            </ul>
-        </div>
-        <div id="footer-media-box">
-            <p class="footer-bold">Follow us on</p>
-            <ul>
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page (opens in a new tab)"><i
-                            class="fa-brands fa-youtube"></i></a>
-                </li>
-            </ul>
-        </div>
-        <div id="footer-copyright-box">
-            <p><i class="fa-sharp fa-solid fa-copyright"></i> COPYRIGHT All rights reserved</p>
-        </div>
-    </footer>
-
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/14581a3d9d.js" crossorigin="anonymous"></script>
+        <!-- font awesome script -->
+        <script src="https://kit.fontawesome.com/14581a3d9d.js" crossorigin="anonymous"></script>
 
 </body>
 

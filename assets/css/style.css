@@ -14,8 +14,7 @@
 
 /* General text rules*/
 body {
-    font-family: montserrat, sans-serif;
-    font-weight: 300;
+    font-family: "montserrat", sans-serif;
 }
 
 /* General rules to all pages content */
@@ -29,7 +28,7 @@ body {
 }
 
 .front-section h1 {
-    font-family: Patua+One, sans-serif;
+    font-family: "Patua+One", sans-serif;
     color: aliceblue;
     font-size: 5vw;
     font-weight: bold;
@@ -39,7 +38,7 @@ body {
 }
 
 .front-section h2 {
-    font-family: Hebbo, sans-serif;
+    font-family: "Hebbo", sans-serif;
     font-size: 2.5vw;
     color: whitesmoke;
     text-transform: uppercase;
@@ -54,16 +53,35 @@ body {
     overflow: auto;
 }
 
-.content-box h2 {
+.content-box h1 {
     border-bottom: 3px groove;
     margin-bottom: 20px;
-    font-family: Hebbo, sans-serif;
+    font-family: "Hebbo", sans-serif;
     font-size: 200%;
     color: rgb(89, 62, 47);
     text-align: left;
     text-transform: uppercase;
     padding-left: 2%;
-    width: 350px;
+}
+
+.content-box h2 {
+        font-size: 150%;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+}
+
+.content-box h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.content-box h4 {
+    font-size: 130%;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 .content-box p {
@@ -71,6 +89,14 @@ body {
     text-align: justify;
     text-indent: 20px;
     line-height: 1.5;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
 }
 
 /* Read more button */
@@ -190,9 +216,8 @@ body {
     padding-left: 10vw;
 }
 
-#home-front h1,
-h3 {
-    font-family: Patua+One, sans-serif;
+#home-front h1 {
+    font-family: "Patua+One", sans-serif;
     color: #A32E2E;
     text-decoration: none;
     text-align: center;
@@ -311,9 +336,7 @@ h3 {
     padding-left: 5vw;
 }
 
-/* Our Brands front section rules */
-
-
+/* Our Brands content sections rules */
 .ourbrands-box-div {
     overflow: auto;
     margin-bottom: 10px;
@@ -324,8 +347,6 @@ h3 {
     max-height: 250px;
     float: left;
     object-fit: contain;
-    
-    
 }
 
 .ourbrands-text {
@@ -334,26 +355,12 @@ h3 {
     float: right;
     text-align: justify;
     line-height: 1.3;
-    
-    
-}
-
-.ourbrands-text h5 {
-    font-size: 150%;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: left;
 }
 
 .ourbrands-text p {
     margin-bottom: 3px;
 }
 
-.ourbrands-text h4 {
-    font-size: 130%;
-    font-weight: bold;
-    margin-top: 10px;
-}
 
 
 /**************************/
@@ -361,22 +368,87 @@ h3 {
 /************************/
 
 /* Wine Tours front section rules */
-#winetours-front {
+.winetours-front {
     background-image: url(../images/wine-tour-img.webp);
 }
 
-#winetours-front h1 {
+.winetours-front h1 {
     padding-top: 2vw;
     text-align: center;
 }
 
-#winetours-front h2 {
+.winetours-front h2 {
     margin: 17vw auto 0 auto;
     padding: 2vw;
     text-align: center;
     width: 60vw;
 }
 
+
+/* Wine tours content sections rules */
+
+.experiences-box-div {
+    overflow: auto;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+.experiences-box-div iframe {
+    width: 100%;
+    height: 28vw;
+}
+
+.experiences-text {
+    width: 49%;
+    border: 1px solid;
+}
+
+.experiences-video {
+    width: 49%;
+    border: 1px solid;
+}
+
+.tours-box {
+    overflow: auto;
+    margin-bottom: 10px;
+    background-color: rgb(255, 0, 157);
+}
+
+.tours-box div {
+    margin-bottom: 10px;
+}
+
+.tours-box ul {
+    padding-left: 18px;
+    line-height: 1.5;
+}
+
+.tours-text {
+    width: 79%;
+    border: 1px solid;
+}
+
+.tours-img {
+    width: 20%;
+}
+
+.tours-price-layout {
+    display: flex;
+    align-items: center;
+
+}
+
+.tours-price-layout div{
+    width: 20%;
+    text-align: left;
+    border: 1px solid;
+}
+
+.tours-price-layout a{
+font-size: 2em;
+font-weight: bold;
+cursor: pointer;
+}
 
 
 /**************************/
@@ -477,68 +549,6 @@ footer div i {
     font-size: 150%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Our Brands Page Rules */
-
-/*
-
-
-.ourbrands-box-div {
-    overflow: auto;
-    margin-bottom: 60px;
-}
-
-
-
-.ourbrands-img img {
-    width: 100px;
-    height: 250px;
-    float: left;
-    object-fit: contain;
-}
-
-.ourbrands-text {
-    width: 90%;
-    height: auto;
-    float: right;
-    text-align: justify;
-    line-height: 1.3;
-}
-
-.ourbrands-text h5 {
-    font-size: 150%;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.ourbrands-text p {
-    margin-bottom: 3px;
-}
-
-.ourbrands-text h4 {
-    font-size: 130%;
-    font-weight: bold;
-    margin-top: 10px;
-}
 
 
 /******************/
