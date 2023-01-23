@@ -98,7 +98,8 @@
 
     <section class="content-box">
         <h1>Alentejo Wines – Over view</h1>
-        <iframe class="club-video" src="https://www.youtube.com/embed/zveJr8e-l0g" title="YouTube video player" frameborder="0"
+        <iframe class="club-video" src="https://www.youtube.com/embed/zveJr8e-l0g" title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </section>
@@ -113,41 +114,54 @@
 
     <section class="content-box">
         <h1>Join to our club</h1>
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="tours-form">
-            <label for="forename">Forename:</label>
-            <input type="text" id="forename" name="forename" placeholder="Your forename.." required>
-            <label for="surname">Surname:</label>
-            <input type="text" id="surname" name="surname" placeholder="Your surname.." required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Email@...com" required>
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" placeholder="+18" required>
-            <p>What is your preferred type?</p>
-            <div>
-                <input type="checkbox" id="red-wine-checkbox" name="red-wine">
-                <label for="red-wine-checkbox">Red Wine</label>
+        <form class="club-form" method="POST" action="https://formdump.codeinstitute.net/" class="tours-form">
+            <div class="flex-club">
+                <div>
+                    <label class="label" for="forename">Forename:</label>
+                    <input class="input" type="text" id="forename" name="forename" placeholder="Your forename.." required>
+                </div>
+                <div>
+                    <label class="label" for="surname">Surname:</label>
+                    <input class="input" type="text" id="surname" name="surname" placeholder="Your surname.." required>
+                </div>
+                <div>
+                    <label class="label" for="email">Email:</label>
+                    <input class="input" type="email" id="email" name="email" placeholder="Email@...com" required>
+                </div>
+                <div>
+                    <label class="label" for="age">Age:</label>
+                    <input class="input" type="number" id="age" name="age" placeholder="+18" required>
+                </div>
+                <div>
+                    <p>What is your preferred type?</p>
+                    <div>
+                        <input  type="checkbox" id="red-wine-checkbox" name="red-wine">
+                        <label  for="red-wine-checkbox">Red Wine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="White-wine-checkbox" name="White-wine">
+                        <label for="White-wine-checkbox">White Wine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="rose-wine-checkbox" name="rose-wine">
+                        <label for="rose-wine-checkbox">Rose Wine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="green-wine-checkbox" name="green-wine-checkbox">
+                        <label for="green-wine-checkbox">Green Wine</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="other-wine-checkbox" name="other-wine">
+                        <label for="other-wine-checkbox">Other Type</label>
+                    </div>
+                </div>
             </div>
-            <div>
-                <input type="checkbox" id="White-wine-checkbox" name="White-wine">
-                <label for="White-wine-checkbox">White Wine</label>
-            </div>
-            <div>
-                <input type="checkbox" id="rose-wine-checkbox" name="rose-wine">
-                <label for="rose-wine-checkbox">Rose Wine</label>
-            </div>
-            <div>
-                <input type="checkbox" id="green-wine-checkbox" name="green-wine-checkbox">
-                <label for="green-wine-checkbox">Green Wine</label>
-            </div>
-            <div>
-                <input type="checkbox" id="other-wine-checkbox" name="other-wine">
-                <label for="other-wine-checkbox">Other Type</label>
-            </div>
-            <label for="feedback" class="block-label">Tell us about your wine experiences</label>
-            <br>
-            <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
-            <input type="submit" value="Join Now">
-            <input type="reset" value="reset">
+
+            <label class="label" for="feedback" class="block-label">Tell us about your wine experiences</label>
+            <textarea class="input" id="feedback" rows="4" cols="87" name="feedback"></textarea>
+
+            <input class="book-button" type="submit" value="Join Now">
+            <input class="rest-button" type="reset" value="reset">
         </form>
     </section>
 
