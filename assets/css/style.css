@@ -398,6 +398,84 @@ body {
     cursor: pointer;
 }
 
+.tours-form {
+    width: 65%;
+    background-color: rgb(240, 217, 182);
+    font-family: "Hebbo", sans-serif;
+    color: black;
+    font-size: 1.2em;
+    padding: 2vw;
+}
+
+.label {
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 1em;
+    margin-top: 8px;
+    border: 1px solid;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 6em;
+    margin-bottom: 0.8em;
+}
+
+.input:hover {
+    border: 2px solid rgb(245, 109, 82);
+}
+
+.book-button {
+    font-family: "Hebbo", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: #208c23;
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+
+.book-button:hover {
+    background-color: whitesmoke;
+    color: #208c23;
+}
+
+.rest-button {
+    font-family: "Hebbo", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: #e3423a;
+    padding: 1em 1.5em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rest-button:hover {
+    background-color: whitesmoke;
+    color: #e3423a;
+}
+
+.tours-map {
+    width: 29%;
+}
+
 
 /**************************/
 /* Wine Club Page Rules */
@@ -654,6 +732,15 @@ footer i {
 
     .tours-price-layout a {
         font-size: 1.5em;
+    }
+
+    .tours-form {
+        width: 95%;
+    }
+    
+    .tours-map {
+        width: 100%;
+        margin-top: 20px;
     }
 
     /*****************/
