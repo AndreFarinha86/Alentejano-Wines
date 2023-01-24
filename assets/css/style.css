@@ -37,10 +37,10 @@ body {
     text-underline-offset: 0.7vw;
 }
 
-.front-section h2 {
+.title-text {
     font-family: "Hebbo", sans-serif;
-    font-size: 2.5vw;
     color: whitesmoke;
+    font-size: 2.5vw;
     text-transform: uppercase;
     background: rgba(177, 18, 38, 0.8);
     border-radius: 2vw;
@@ -212,7 +212,7 @@ body {
     }
 }
 
-.home-front div {
+.home-title {
     padding-top: 8vw;
     padding-left: 10vw;
 }
@@ -223,20 +223,21 @@ body {
     text-align: center;
 }
 
-.home-front h2 {
+.home-title-text {
     padding: 1.2vw;
     width: fit-content;
-    font-size: 2vw;
+    font-size: 1.3vw;
     margin-top: 12vw;
     margin-left: 1vw;
 }
 
-.home-front li {
+.home-title-text li {
     list-style-type: none;
     display: inline-block;
     font-weight: normal;
     padding-top: 0.5vw;
     padding-right: 2.3vw;
+    font-size: 2vw;
 }
 
 /* Home page main content rules */
