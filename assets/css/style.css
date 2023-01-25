@@ -183,7 +183,6 @@ body {
 }
 
 
-
 /********************/
 /* Home Page Rules */
 /******************/
@@ -539,7 +538,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-input[type=checkbox]{
+input[type=checkbox] {
     margin-bottom: 15px;
 }
 
@@ -552,12 +551,20 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     background-color: rgba(177, 18, 38, 0.8);
-    padding: 2rem 4rem;
-    gap: 2rem 12rem;
-    justify-content: center;
+    padding: 1rem 8rem;
+    gap: 2rem;
     margin-top: 20px;
+}
+
+footer div{
+    border: 1px solid;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 footer li {
@@ -568,16 +575,10 @@ footer i {
     color: rgb(32, 31, 31);
 }
 
-.footer-bold {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-}
-
 .footer-media-box li {
     display: inline-block;
     font-size: 2em;
-    margin: 1vw;
+    margin-right: 1.1rem;
 }
 
 
@@ -806,6 +807,12 @@ footer i {
     /* Footer rules */
     /***************/
     footer {
-        gap: 2rem 5rem;
+        gap: 1.1rem 2rem;
+        font-size: 0.9em;
+        padding: 1.2rem 1rem;
+        justify-content: center;
+    }
+    footer h2 {
+        margin-bottom: 0.6rem;
     }
 }
