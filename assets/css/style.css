@@ -99,6 +99,10 @@ body {
     float: left;
 }
 
+iframe{
+    border: 0px;
+}
+
 /* Read more button */
 
 .readmore-check {
@@ -541,7 +545,6 @@ textarea {
 input[type=checkbox] {
     margin-bottom: 15px;
 }
-
 
 
 /*****************/
