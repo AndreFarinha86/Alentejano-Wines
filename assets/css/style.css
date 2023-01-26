@@ -112,7 +112,7 @@ iframe{
 .readmore-button {
     font-size: 110%;
     font-weight: bold;
-    color: rgb(52, 125, 244);
+    color: rgb(15, 97, 229);
     text-decoration: underline;
     padding: 2px;
     cursor: pointer;
@@ -193,7 +193,7 @@ iframe{
 
 /* Home front section rules */
 .home-front {
-    background-image: url(../images/Home-Front-img.jpg);
+    background-image: url(../images/Home-Front-img.webp);
     background-position: top;
 }
 
@@ -246,7 +246,7 @@ iframe{
 /* Home page main content rules */
 
 .content-over {
-    background: url(../images/About-us2.png) no-repeat center center;
+    background: url(../images/About-us2.webp) no-repeat center center;
     text-align: center;
 }
 
@@ -288,7 +288,7 @@ iframe{
 
 /* Our Brands front section rules */
 .ourbrands-front {
-    background-image: url(../images/our-brands-img.jpg);
+    background-image: url(../images/our-brands-img.webp);
 }
 
 .ourbrands-front h1 {
@@ -489,7 +489,7 @@ textarea {
 
 /* Wine Club front section rules */
 .wineclub-front {
-    background-image: url(../images/wine-club-img.png);
+    background-image: url(../images/wine-club-img.webp);
 }
 
 .wineclub-front h1 {
@@ -554,7 +554,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgba(177, 18, 38, 0.8);
+    background-color: rgba(233, 63, 86, 0.8);
     padding: 1rem 8rem;
     gap: 2rem;
     margin-top: 20px;
