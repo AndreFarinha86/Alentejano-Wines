@@ -661,7 +661,6 @@ footer i {
     .tours-price-layout a {
         font-size: 1.8em;
     }
-
 }
 
 /* Responsive rules for screens smaller than 650px */
@@ -738,6 +737,15 @@ footer i {
     /********************************/
     /* Home content sections rules */
     /******************************/
+    
+    .content-over img {
+        transform: translate(0%, 0%);
+    }
+    
+    .content-over h3 {
+        transform: translate(0%, -320%);
+    }
+    
     .home-text {
         width: 100%;
         margin-bottom: 25px;
@@ -745,11 +753,12 @@ footer i {
 
     .home-img1 {
         width: 100%;
+        height: 250px;
         margin: 0 auto;
     }
 
     .home-img2 {
-        height: 250px;
+        height: 150px;
     }
 
 
