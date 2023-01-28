@@ -53,6 +53,10 @@ body {
     overflow: auto;
 }
 
+hr {
+    height: 2rem;
+}
+
 .content-box h1 {
     border-bottom: 3px groove;
     margin-bottom: 20px;
@@ -99,7 +103,7 @@ body {
     float: left;
 }
 
-iframe{
+iframe {
     border: 0px;
 }
 
@@ -110,7 +114,7 @@ iframe{
 }
 
 .readmore-button {
-    font-size: 110%;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(15, 97, 229);
     text-decoration: underline;
@@ -255,11 +259,10 @@ iframe{
 }
 
 .content-over h3 {
-    font-size: 1.5em;
     font-weight: bold;
     color: aliceblue;
     text-transform: uppercase;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 70%);
     text-align: center;
 }
 
@@ -299,7 +302,6 @@ iframe{
 /* Our Brands content sections rules */
 .ourbrands-box-div {
     overflow: auto;
-    margin-bottom: 4rem;
 }
 
 .ourbrands-img img {
@@ -348,7 +350,6 @@ iframe{
 
 .experiences-box-div {
     overflow: auto;
-    margin-bottom: 30px;
 }
 
 .experiences-box-div iframe {
@@ -366,8 +367,7 @@ iframe{
 
 .tours-box {
     overflow: auto;
-    margin-bottom: 20px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(233, 233, 233, 0.5);
     padding: 2vw 2vw;
 }
 
@@ -388,8 +388,7 @@ iframe{
 .tours-price-layout {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 0 5vw;
+    gap: 2vw 5vw;
 }
 
 .tours-price-layout div {
@@ -398,6 +397,7 @@ iframe{
 
 .tours-price-layout a {
     font-size: 2em;
+    color: rgb(75, 122, 241);
     font-weight: bold;
     cursor: pointer;
 }
@@ -422,7 +422,7 @@ iframe{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2vw;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 .input {
@@ -480,6 +480,12 @@ textarea {
 
 .tours-map {
     width: 29%;
+    height: auto;
+}
+
+.tours-map iframe {
+    width: 100%;
+    height: 400px;
 }
 
 
@@ -507,7 +513,6 @@ textarea {
 /* Wine Club content sections rules */
 .club-box {
     overflow: auto;
-    margin-bottom: 40px;
 }
 
 .club-text {
@@ -527,23 +532,27 @@ textarea {
 
 .club-form {
     width: 95%;
-    background-color: rgb(198, 100, 115);
+    background-color: rgb(205, 139, 149,0.5);
     font-family: "Hebbo", sans-serif;
     color: black;
     font-size: 1.2em;
     padding: 2vw;
 }
 
+.club-form h4 {
+    margin-bottom: 10px;
+}
+
 .flex-club {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2vw;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 input[type=checkbox] {
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 
 
@@ -675,16 +684,25 @@ footer i {
         margin-top: 65px;
     }
 
+    .content-box {
+        margin: 2rem auto 0 auto;
+    }
+
+    hr {
+        height: 1.5rem;
+    }
+
     .content-box h1 {
-        font-size: 1.8em;
+        font-size: 1.2em;
+        margin-bottom: 15px;
     }
 
     .content-box h2 {
-        font-size: 1.6em;
+        font-size: 1em;
     }
 
     .content-box h3 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     .content-box h4 {
@@ -701,6 +719,11 @@ footer i {
 
     .float-right {
         float: none;
+    }
+
+    /* Read more button */
+    .readmore-button {
+        font-size: 0.8em;
     }
 
     /***********************************/
@@ -737,15 +760,16 @@ footer i {
     /********************************/
     /* Home content sections rules */
     /******************************/
-    
+
     .content-over img {
-        transform: translate(0%, 0%);
+        transform: translate(0%, 5%);
+        height: 90%;
     }
-    
+
     .content-over h3 {
-        transform: translate(0%, -320%);
+        transform: translate(0%, -200%);
     }
-    
+
     .home-text {
         width: 100%;
         margin-bottom: 25px;
@@ -753,18 +777,21 @@ footer i {
 
     .home-img1 {
         width: 100%;
-        height: 250px;
+        height: 180px;
         margin: 0 auto;
     }
 
     .home-img2 {
-        height: 150px;
+        height: 120px;
     }
 
 
     /**************************************/
     /* Wine tours content sections rules */
     /************************************/
+    .experiences-box-div iframe {
+        height: 50vw;
+    }
 
     .experiences-text {
         width: 100%;
@@ -780,23 +807,53 @@ footer i {
         width: 100%;
     }
 
+    .tours-text li {
+        font-size: 0.8em;
+    }
+
     .tours-img {
         width: 100%;
     }
 
     .tours-price-layout a {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     /* Wine tours form rules */
 
     .tours-form {
         width: 95%;
+        font-size: 1em;
+        margin-bottom: 0.8rem;
+    }
+
+    .input {
+        padding: 0.6em;
+        margin-top: 8px;
+    }
+
+    textarea {
+        height: 4em;
+        margin-bottom: 0.8em;
+    }
+
+    .book-button {
+        font-size: medium;
+        padding: 0.8em;
+        margin-right: 0.4em;
+    }
+
+    .rest-button {
+        font-size: medium;
+        padding: 0.8em;
     }
 
     .tours-map {
         width: 100%;
-        margin-top: 20px;
+    }
+
+    .tours-map iframe {
+        height: 50vw;
     }
 
     /**************************/
@@ -811,6 +868,11 @@ footer i {
         width: 100%;
     }
 
+    /* Wine Club form rules */
+    .club-form {
+        font-size: 1em;
+    }
+
     /*****************/
     /* Footer rules */
     /***************/
@@ -820,6 +882,7 @@ footer i {
         padding: 1.2rem 1rem;
         justify-content: center;
     }
+
     footer h2 {
         margin-bottom: 0.6rem;
     }
