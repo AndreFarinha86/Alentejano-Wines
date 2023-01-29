@@ -1,7 +1,6 @@
 # Milestone Project 1 - ALENTEJANO-WINES
 
 ## Description
----
 
 ALENTEJANO WINES is my first milestone project of the Full Stack Web Developer course provided by Code Institute. The aim is to create a responsive website by using the HTML and CSS languages. 
 
@@ -85,7 +84,6 @@ The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and 
 ![Responsive Navigation Bar](assets/images/read-me-navbar2.png)
 
 
-
 2. **Pages front section**
 
 - At each page the front section includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
@@ -100,13 +98,11 @@ The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and 
 ![Wine club front section](assets/images/read-me-front-wineclub.png)
 
 
-
 3. **Home page content**
 
 - The content of the home page will present to the user a brief description of the wines, typical wineries and typical vineyards of Alentejo region.
 
 ![Home page content](assets/images/read-me-home-section.png)
-
 
 
 4. **Footer**
@@ -116,13 +112,11 @@ The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and 
 ![Footer](assets/images/read-me-footer.png)
 
 
-
 5. **Our Brands page**
 
 - The page of our brands will present a selection of different types and brands of Alentejo wines, presenting a detailed description of each wine and costs.
 
 ![Our brands page](assets/images/read-me-ourbrands.png)
-
 
 
 6. **Wine tours page**
@@ -131,16 +125,13 @@ The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and 
 
 ![Wine tour page previous experience section](assets/images/read-me-winetour1.png)
 
-
 - The second section of the Wine tours page will allow the user to see all available tours and go into detail on each activity.
 
 ![Wine tour page tours section](assets/images/read-me-winetour2.png)
 
-
 - The third section of the Wine tours page will present a form section that allows the user to fill in and book the desire tour. Also a map is provided to allow the user to see the tours location.
 
 ![Wine tour page form section](assets/images/read-me-winetour3.png)
-
 
 
 7. **Wine club page**
@@ -159,9 +150,9 @@ The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and 
 
 ![Wine club page section 1](assets/images/read-me-wineclub3.png)
 
+---
 
 ## Technologies Used
----
 
 In this project the following technologies have been used.
 
@@ -190,9 +181,9 @@ In this project the following technologies have been used.
 - [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 
+---
 
 ## Testing
----
 
 Along the development of the project regular testing were carried out. And the pages were reloaded several times after each addition and modification.
 
@@ -238,9 +229,9 @@ Along the development of the project regular testing were carried out. And the p
 
 No unfixed bugs were found.
 
+---
 
 ## Deployment
----
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
     - In the GitHub repository [here](https://github.com/AndreFarinha86/Alentejano-Wines), navigate to the Settings tab;
@@ -249,8 +240,9 @@ No unfixed bugs were found.
 
 The live link can be found [here](https://andrefarinha86.github.io/Alentejano-Wines/)
 
-## Credits
 ---
+
+## Credits
 
 ### Code
 
@@ -272,8 +264,7 @@ All content and photos were used from the following sources:
 - To my mentors, [Caleb Mbakwe](https://github.com/caleboau2012) [Jack Wachira](https://github.com/iamjackwachira), for support  me along the project,  provide the required assistance and guide me in the right direction.
 - The Slack community. All the help, support and information available from other students is really a great tool.
 
-
-## Other General Project Advice
+---
 
 
 
