@@ -11,19 +11,65 @@ The ALENTEJANO WINES website project aims to promote wines from the vibrant regi
 
 ![Am I Responsive layout](assets/images/read-me-responsive.png)
 
-
+---
 
 ## User Experience (UX)
+
+### Goals
+
+The idea and objective of the 'Vinhos do Alentejo' project is to provide the user with an easy and understandable way of navigating and exploring the website throughout its contents.
+
+The site was planned and designed in four distinct sections:
+
+- Home page: The user will have the oportunyti to explore and learn more about the typical Alentejo estates and how the grapes are planted and produced.
+- Our brands page: Here the user will be presented with a selective range of Alentejo wines with a detailed description of each wine.
+- Wine tours page: In this section the user will be able to consult a selection of tours related with Alentejo wine world and their discription with the opossibility of booking the a desired tour.
+- Wine Club page: In this section the user will have the opportunity to merge into the world of wines, such as the history of Alentejo wines, how they are made, videos with experts explaining the different types of wines. The user will also have the opportunity to register and join the wine club.
+
 ---
 
+### Design
+
+- Pages Front sections: At the top of each page a photography is applied with title overlaid to allow the user to see exactly what the location is.
+
+- The website is designed responsively where on large screens a block of text will float aside of a image or video where responsively for small screens the text block will be positioned over or below the applicable image or video occupying the full available screen width. ILikewise, the text block will be reduced by providing the user with a read more/less button to diplay the hidden content. This will allow the user to be more selective and explore the content that interests him.
+
+- The forms and footer were designed with different background color in order to highlight from the rest of the content.
+
+- Typography
+
+    - For all page titles the 'Patua+One' font was chosen with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    - For section titles in whole website the 'Hebbo' font was chosen  with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+    - For text in general in whole website the 'montserrat' font was chosen with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+
+ ---
+
+### Wireframe
 
 
+The Wireframe [balsamiq](https://balsamiq.com/) was used initially to draft and develop the website design in a responsive way:
 
+1. Index - Home Page
+
+![Home page wireframe](assets/images/read-me-wireframe1.png)
+
+2. Our brands Page
+
+![Our brands Page wireframe](assets/images/read-me-wireframe2.png)
+
+3. Wine tours Page
+
+![Wine tours Page wireframe](assets/images/read-me-wireframe3.png)
+
+4. Wine club Page
+
+![Wine club Page wireframe](assets/images/read-me-wireframe4.png)
+
+---
 
 ## Features
----
 
-- The ALENTEJANO WINES website project was designed to responsive respond to different screen sizes.
+- The ALENTEJANO WINES website project was designed to responsive respond to different screen sizes down to 280px wide .
 
 1. **Navigation Bar**
 
@@ -151,7 +197,7 @@ In this project the following technologies have been used.
 Along the development of the project regular testing were carried out. And the pages were reloaded several times after each addition and modification.
 
 
-1. This website is responsive to all screens sizes down to 280px width and was tested by using the devtools device toolbar.
+1. This website is responsive to all screens sizes down to 280px wide and was tested by using the devtools device toolbar.
 
 2. The navigation bar links (burger button in responsive response for small screens), logo link, all read more and less buttons (in responsive response for small screens), imported youtube videos and social media links were tested and all work well.
 
@@ -219,7 +265,6 @@ All content and photos were used from the following sources:
 - [Adega Mayor](https://www.adegamayor.pt/pt/pt/enoturismo-alentejo/visita-mayores/)
 - [Wines of Alentejo](https://www.vinhosdoalentejo.pt/en/)
 - [Portugal by wine](https://www.portugalbywine.com/)
-- [Wine tourism Portugal](https://www.winetourismportugal.com/en/)
 - [Wine tourism Portugal](https://www.winetourismportugal.com/en/)
 
 ### Acknowledgements
