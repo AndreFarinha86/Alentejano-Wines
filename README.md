@@ -151,17 +151,24 @@ In this project the following technologies have been used.
 Along the development of the project regular testing were carried out. And the pages were reloaded several times after each addition and modification.
 
 
+1. This website is responsive to all screens sizes down to 280px width and was tested by using the devtools device toolbar.
+
+2. The navigation bar links (burger button in responsive response for small screens), logo link, all read more and less buttons (in responsive response for small screens), imported youtube videos and social media links were tested and all work well.
+
+3. Both forms on the site were tested and the submit button works fine when all required information is filled in correctly.
+
+
 ### Validator Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+4. The website code was both tested, manually and automatically (using the URL link), through W3C Markup Validator and W3C CSS Validator Services, which were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 - HTML
-    - No errors were returned when passing through the official [W3C validator] (https://validator.w3.org/)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrefarinha86.github.io%2FAlentejano-Wines%2F)
 
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrefarinha86.github.io%2FAlentejano-Wines%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-- Accessibility 
+5. Accessibility 
  - The chosen colors and fonts were confirmed that are easy and accessible by running it through lighthouse in devtools.
     - Home Page
 
